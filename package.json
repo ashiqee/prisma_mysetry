@@ -1,0 +1,21 @@
+
+
+{
+  "name": "prisma-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license":"MIT",
+
+  "scripts":{
+  "dev":"ts-node-dev --respawn --transpile-only src/create.ts"
+  },
+
+
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
