@@ -25,7 +25,7 @@ const main = async()=>{
 
     // const createCategory = await prisma.category.create({
     //     data:{
-    //         name:"NextJs"
+    //         name:"Python"
     //     }
     // })
 
@@ -60,6 +60,8 @@ const main = async()=>{
     })
 
     console.log(createPost);
+    
+
     
 
 }
