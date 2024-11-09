@@ -33,6 +33,7 @@ model User {
   id Int @id @default(autoincrement())
   username String @unique
   email String @unique
+  age Int @default(0)
   role UserRole @default(user)
   profile Profile?
   post Post[]
